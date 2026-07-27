@@ -1,0 +1,6 @@
+{
+  "name": "Ветеринарна Клініка «Добрий Доктор»",
+  "description": "Офіційний сайт ветеринарної клініки «Добрий Доктор» у Києві (вул. О. Ольжича, 14). Досвідчені лікарі, сучасна діагностика, турбота про ваших улюбленців. Запис через Telegram та WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
