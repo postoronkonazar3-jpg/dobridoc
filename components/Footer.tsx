@@ -17,9 +17,8 @@ export default function Footer({
     { href: '#about', label: 'Про клініку' },
     { href: '#gallery', label: 'Галерея' },
     { href: '#services', label: 'Послуги' },
+    { href: '#promos', label: 'Чому ми' },
     { href: '/prices', label: 'Прайс-лист' },
-    { href: '#doctors', label: 'Лікарі' },
-    { href: '#advantages', label: 'Переваги' },
     { href: '#contacts', label: 'Контакти' },
   ];
 

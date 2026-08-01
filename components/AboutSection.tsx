@@ -9,7 +9,7 @@ export default function AboutSection() {
     'Ми використовуємо сучасне обладнання для діагностики та лікування;',
     'Пропонуємо доступні та прозорі ціни на всі послуги;',
     'Забезпечуємо індивідуальний підхід до кожного пацієнта та його власника;',
-    'Приймаємо не лише котів і собак, а й гризунів та екзотичних тварин.',
+    'Зручне розташування.',
   ];
 
   return (
@@ -44,16 +44,6 @@ export default function AboutSection() {
                     </p>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            {/* Decorative Floating Cutout Animal Accent */}
-            <div className="absolute -top-6 -right-6 hidden sm:block bg-white p-3 rounded-2xl shadow-lg border border-sky-100 animate-float">
-              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-xs">
-                  ✓
-                </div>
-                <span className="text-xs font-bold text-slate-800">100% Безболісно</span>
               </div>
             </div>
           </div>

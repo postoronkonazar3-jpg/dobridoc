@@ -14,62 +14,127 @@ export default function GallerySection() {
     {
       id: 1,
       title: 'Фотографії з клініки «Добрий Доктор»',
-      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785002710/475873870_1527078351301977_307969969269431202_n_ionoju.jpg',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518344/photo_9_2026-07-31_20-18-40_r8sbbv.jpg',
     },
     {
       id: 2,
       title: 'Фотографії з клініки «Добрий Доктор»',
-      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785002710/54523782_307798159896675_6196340392997158912_n_udriha.jpg',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518344/photo_8_2026-07-31_20-18-40_laobgf.jpg',
     },
     {
       id: 3,
       title: 'Фотографії з клініки «Добрий Доктор»',
-      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785002710/475775338_1527077421302070_4322636953431938085_n_udgoiu.jpg',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518344/photo_7_2026-07-31_20-18-40_tf4sjh.jpg',
     },
     {
       id: 4,
       title: 'Фотографії з клініки «Добрий Доктор»',
-      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785002710/186468639_752374168772403_3950861202425185432_n_fvbiy3.jpg',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518344/photo_6_2026-07-31_20-18-40_a0hwti.jpg',
     },
     {
       id: 5,
       title: 'Фотографії з клініки «Добрий Доктор»',
-      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785002710/468086301_1483079469035199_4903538338121059049_n_blpjx3.jpg',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518343/photo_6_2026-07-25_20-58-28_ng85jj.jpg',
     },
     {
       id: 6,
       title: 'Фотографії з клініки «Добрий Доктор»',
-      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785002375/images_pw84s4.jpg',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518343/photo_5_2026-07-31_20-18-40_gzljbd.jpg',
     },
     {
       id: 7,
       title: 'Фотографії з клініки «Добрий Доктор»',
-      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785002357/images_rao60r.jpg',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518343/photo_5_2026-07-25_20-58-28_cragjv.jpg',
     },
     {
       id: 8,
       title: 'Фотографії з клініки «Добрий Доктор»',
-      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785002321/photo_5_2026-07-25_20-58-28_pqm84m.jpg',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518343/photo_4_2026-07-31_20-18-40_hvoi8h.jpg',
     },
     {
       id: 9,
       title: 'Фотографії з клініки «Добрий Доктор»',
-      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785002321/photo_3_2026-07-25_20-58-28_mbkerf.jpg',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518342/IMG_1733_2_xdyvsi.jpg',
     },
     {
       id: 10,
       title: 'Фотографії з клініки «Добрий Доктор»',
-      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785002321/photo_2_2026-07-25_20-58-28_i70syk.jpg',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518342/photo_4_2026-07-25_20-58-28_qft5vj.jpg',
     },
     {
       id: 11,
       title: 'Фотографії з клініки «Добрий Доктор»',
-      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785002321/photo_1_2026-07-25_20-58-28_aibpkn.jpg',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518342/photo_3_2026-07-31_20-18-40_wmsn92.jpg',
     },
     {
       id: 12,
       title: 'Фотографії з клініки «Добрий Доктор»',
-      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785002321/photo_6_2026-07-25_20-58-28_aedrzq.jpg',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518342/photo_3_2026-07-25_20-58-28_wvworj.jpg',
+    },
+    {
+      id: 13,
+      title: 'Фотографії з клініки «Добрий Доктор»',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518342/photo_2_2026-07-25_20-58-28_rhfj11.jpg',
+    },
+    {
+      id: 14,
+      title: 'Фотографії з клініки «Добрий Доктор»',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518342/photo_2_2026-07-31_20-18-40_irzpke.jpg',
+    },
+    {
+      id: 15,
+      title: 'Фотографії з клініки «Добрий Доктор»',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518342/photo_1_2026-07-25_20-58-28_fmmuj8.jpg',
+    },
+    {
+      id: 16,
+      title: 'Фотографії з клініки «Добрий Доктор»',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518342/photo_1_2026-07-31_20-18-40_zgdeus.jpg',
+    },
+    {
+      id: 17,
+      title: 'Фотографії з клініки «Добрий Доктор»',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518341/IMG_1713_2_sgywzd.jpg',
+    },
+    {
+      id: 18,
+      title: 'Фотографії з клініки «Добрий Доктор»',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518341/2025-02-10_khrigw.jpg',
+    },
+    {
+      id: 19,
+      title: 'Фотографії з клініки «Добрий Доктор»',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518341/2025-12-15_giywzo.jpg',
+    },
+    {
+      id: 20,
+      title: 'Фотографії з клініки «Добрий Доктор»',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518341/2026-06-07_1_zsgjmv.jpg',
+    },
+    {
+      id: 21,
+      title: 'Фотографії з клініки «Добрий Доктор»',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518341/2025-03-31_wxqzfy.jpg',
+    },
+    {
+      id: 22,
+      title: 'Фотографії з клініки «Добрий Доктор»',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785518340/2025-02-07_zw2ugf.jpg',
+    },
+    {
+      id: 23,
+      title: 'Фотографії з клініки «Добрий Доктор»',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785002710/475873870_1527078351301977_307969969269431202_n_ionoju.jpg',
+    },
+    {
+      id: 24,
+      title: 'Фотографії з клініки «Добрий Доктор»',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785002710/54523782_307798159896675_6196340392997158912_n_udriha.jpg',
+    },
+    {
+      id: 25,
+      title: 'Фотографії з клініки «Добрий Доктор»',
+      url: 'https://res.cloudinary.com/daq51lz0x/image/upload/v1785587343/photo_2026-07-31_17-14-50_ofbngz.jpg',
     },
   ];
 

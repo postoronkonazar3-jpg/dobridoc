@@ -16,7 +16,7 @@ export default function Hero({
   telegramUrl = 'https://t.me/+380962030411',
   viberUrl = 'viber://chat?number=%2B380962030411',
   phone = '+380 96 203 04 11',
-  workingHours = 'Щодня 09:00–21:00 без вихідних',
+  workingHours = 'ПН-СБ з 10.00 до 17.00. Неділя - вихідний',
   address = 'м. Київ, вул. Кирилівська, 123',
 }: HeroProps) {
   return (
@@ -30,12 +30,6 @@ export default function Hero({
           
           {/* Left Column: Text & CTAs */}
           <div className="lg:col-span-7 flex flex-col items-start text-left">
-            {/* Top Pill Badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-100/90 border border-sky-200/80 text-sky-800 text-xs font-bold tracking-wide mb-6 shadow-xs">
-              <span className="w-2 h-2 rounded-full bg-sky-500 animate-ping" />
-              <span>Ветеринарна Клініка у Києві (вул. Кирилівська, 123)</span>
-            </div>
-
             {/* Main Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.15] mb-5">
               Турбота про вашого улюбленця —{' '}
@@ -46,7 +40,7 @@ export default function Hero({
 
             {/* Subheadline */}
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mb-8 font-medium">
-              Ветеринарна клініка «Добрий Доктор» у Києві. Досвідчені лікарі, сучасне обладнання та щире ставлення до кожного пацієнта — від домашніх котів і собак до екзотичних тварин.
+              Ветеринарна клініка «Добрий Доктор» у Києві. Досвідчені лікарі, сучасне обладнання та щире ставлення до кожного пацієнта.
             </p>
 
             {/* CTA Buttons Block */}
@@ -75,12 +69,12 @@ export default function Hero({
                 <div className="w-8 h-8 rounded-xl bg-cyan-100 flex items-center justify-center text-cyan-600 shrink-0">
                   <Heart className="w-4 h-4" />
                 </div>
-                <span className="text-xs font-semibold text-slate-700">Безболісний догляд</span>
+                <span className="text-xs font-semibold text-slate-700">1000+ пухнастих пацієнтів</span>
               </div>
             </div>
           </div>
 
-          {/* Right Column: Floating Animal Cutout Visuals */}
+          {/* Right Column: Photo Visual */}
           <div className="lg:col-span-5 relative mt-6 lg:mt-0 flex justify-center">
             {/* Visual Container Frame */}
             <div className="relative w-full max-w-md aspect-4/5 rounded-3xl bg-gradient-to-tr from-sky-100 via-cyan-50 to-sky-200/60 p-4 border border-sky-200/60 shadow-xl overflow-visible">
@@ -88,40 +82,12 @@ export default function Hero({
               {/* Background Glow Circle */}
               <div className="absolute inset-4 rounded-2xl bg-white/80 shadow-inner overflow-hidden flex items-center justify-center">
                 <img
-                  src="https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=800&q=80"
-                  alt="Ветеринар оглядає щасливого собаку"
+                  src="https://res.cloudinary.com/daq51lz0x/image/upload/v1785519388/photo_2026-07-31_12-34-27_medpoj.jpg"
+                  alt="Ветеринарна клініка Добрий Доктор"
                   className="w-full h-full object-cover rounded-xl opacity-90 transition-transform duration-700 hover:scale-105"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-sky-950/40 via-transparent to-transparent" />
-              </div>
-
-              {/* Floating Cutout Overlay Card - Happy Cat / Dog */}
-              <div className="absolute -bottom-6 -left-6 bg-white p-3.5 rounded-2xl shadow-xl border border-sky-100 flex items-center gap-3 animate-float max-w-xs z-20">
-                <div className="w-12 h-12 rounded-xl bg-sky-50 border border-sky-100 overflow-hidden shrink-0">
-                  <img
-                    src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=200&q=80"
-                    alt="Кіт пацієнт"
-                    className="w-full h-full object-cover"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
-                <div>
-                  <div className="flex items-center gap-1 text-amber-400 text-xs">
-                    {'★'.repeat(5)}
-                  </div>
-                  <p className="text-xs font-bold text-slate-800">5,000+ пухнастих пацієнтів</p>
-                  <p className="text-[11px] text-slate-500">Коти, собаки, ратологи</p>
-                </div>
-              </div>
-
-              {/* Floating Badge - Top Right */}
-              <div className="absolute -top-4 -right-4 bg-gradient-to-r from-sky-600 to-cyan-600 text-white px-4 py-2 rounded-2xl shadow-lg border border-sky-300 flex items-center gap-2 animate-float-reverse z-20">
-                <Award className="w-5 h-5 text-amber-300" />
-                <div className="text-left">
-                  <p className="text-xs font-extrabold leading-tight">100% Довіра</p>
-                  <p className="text-[10px] text-sky-100">Сучасне обладнання</p>
-                </div>
               </div>
             </div>
           </div>
@@ -176,32 +142,6 @@ export default function Hero({
               </div>
             </div>
 
-          </div>
-        </div>
-
-        {/* Statistics Banner */}
-        <div className="mt-6 bg-slate-50/90 rounded-3xl py-4 px-6 sm:px-10 flex flex-col md:flex-row justify-between items-center gap-4 border border-blue-100/80 shadow-xs">
-          <div className="flex flex-wrap items-center gap-8 sm:gap-12">
-            <div className="flex flex-col">
-              <span className="text-2xl font-black text-blue-900">10k+</span>
-              <span className="text-[10px] uppercase font-bold text-slate-400">Щасливих пацієнтів</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-2xl font-black text-blue-900">12</span>
-              <span className="text-[10px] uppercase font-bold text-slate-400">Професійних лікарів</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-2xl font-black text-blue-900">24/7</span>
-              <span className="text-[10px] uppercase font-bold text-slate-400">Підтримка в месенджерах</span>
-            </div>
-          </div>
-          <div className="flex gap-2 items-center">
-            <div className="flex -space-x-2">
-              <div className="w-8 h-8 rounded-full bg-blue-200 border-2 border-white flex items-center justify-center text-xs">👩‍⚕️</div>
-              <div className="w-8 h-8 rounded-full bg-blue-300 border-2 border-white flex items-center justify-center text-xs">👨‍⚕️</div>
-              <div className="w-8 h-8 rounded-full bg-blue-600 border-2 border-white flex items-center justify-center text-[10px] text-white font-bold">+3</div>
-            </div>
-            <span className="text-xs font-semibold text-slate-600 ml-2 italic">Наші спеціалісти онлайн</span>
           </div>
         </div>
 

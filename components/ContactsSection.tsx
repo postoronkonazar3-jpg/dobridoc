@@ -1,8 +1,7 @@
 'use client';
 
 import React from 'react';
-import { MapPin, Clock, Phone, Navigation, ExternalLink, Send, ShieldAlert, Heart } from 'lucide-react';
-import MessengerButtons from './MessengerButtons';
+import { MapPin, Clock, Phone, Navigation, ExternalLink, Heart } from 'lucide-react';
 
 interface ContactsSectionProps {
   telegramUrl?: string;
@@ -13,10 +12,8 @@ interface ContactsSectionProps {
 }
 
 export default function ContactsSection({
-  telegramUrl = 'https://t.me/+380962030411',
-  viberUrl = 'viber://chat?number=%2B380962030411',
   phone = '+380 96 203 04 11',
-  workingHours = 'Щодня 09:00–21:00 (без вихідних)',
+  workingHours = 'ПН-СБ з 10.00 до 17.00. Неділя - вихідний',
   address = 'м. Київ, вул. Кирилівська, 123',
 }: ContactsSectionProps) {
   return (
@@ -35,17 +32,17 @@ export default function ContactsSection({
           </h2>
 
           <p className="text-slate-600 text-base mt-3">
-            Записуйтесь на прийом або ставте будь-які запитання через месенджери чи телефоном
+            Записуйтесь на прийом або ставте будь-які запитання за телефоном
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
           
-          {/* Left Column: Direct Contacts & Large Messenger CTA Box */}
-          <div className="lg:col-span-5 flex flex-col justify-between space-y-6">
+          {/* Left Column: Direct Contacts Details Card */}
+          <div className="lg:col-span-5 flex flex-col justify-center">
             
             {/* Contact Details Card */}
-            <div className="bg-slate-50 p-6 sm:p-8 rounded-3xl border border-slate-200/90 shadow-xs flex flex-col gap-6">
+            <div className="bg-slate-50 p-6 sm:p-8 rounded-3xl border border-slate-200/90 shadow-xs flex flex-col gap-6 h-full justify-center">
               
               {/* Address */}
               <div className="flex items-start gap-4">
@@ -72,7 +69,7 @@ export default function ContactsSection({
                   <p className="text-base font-extrabold text-slate-900 mt-0.5">{workingHours}</p>
                   <p className="text-xs text-emerald-600 font-semibold mt-1 flex items-center gap-1">
                     <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                    Без перерви та вихідних
+                    За попереднім записом
                   </p>
                 </div>
               </div>
@@ -94,28 +91,6 @@ export default function ContactsSection({
                 </div>
               </div>
 
-            </div>
-
-            {/* Messenger CTA Card (Replacing standard forms) */}
-            <div className="bg-gradient-to-br from-sky-500 via-sky-600 to-cyan-600 p-6 sm:p-8 rounded-3xl text-white shadow-xl flex flex-col justify-between">
-              <div>
-                <span className="text-xs font-extrabold text-sky-200 uppercase tracking-wider bg-white/10 px-3 py-1 rounded-full">
-                  ⚡ Швидкий запис 24/7
-                </span>
-                <h3 className="text-xl font-extrabold text-white mt-3 mb-2">
-                  Записуйтесь напряму у месенджерах
-                </h3>
-                <p className="text-xs sm:text-sm text-sky-100 leading-relaxed mb-6">
-                  Ми свідомо відмовилися від формальних анкет та передзвонів. Просто напишіть нам у Telegram чи Viber — адміністратор відповість протягом кількох хвилин!
-                </p>
-              </div>
-
-              <MessengerButtons
-                telegramUrl={telegramUrl}
-                viberUrl={viberUrl}
-                size="lg"
-                layout="col"
-              />
             </div>
 
           </div>

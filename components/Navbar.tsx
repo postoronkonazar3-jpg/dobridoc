@@ -18,7 +18,7 @@ export default function Navbar({
   telegramUrl = 'https://t.me/+380962030411',
   viberUrl = 'viber://chat?number=%2B380962030411',
   phone = '+380 96 203 04 11',
-  workingHours = 'Щодня 09:00–21:00',
+  workingHours = 'ПН-СБ з 10.00 до 17.00. Неділя - вихідний',
   address = 'м. Київ, вул. Кирилівська, 123',
   onOpenSettings,
 }: NavbarProps) {
@@ -30,7 +30,7 @@ export default function Navbar({
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
 
-      const sections = ['hero', 'contacts'];
+      const sections = ['hero', 'services', 'contacts'];
       const scrollPosition = window.scrollY + 120;
 
       for (const section of sections) {
@@ -52,6 +52,7 @@ export default function Navbar({
 
   const navLinks = [
     { href: '#hero', label: 'Головна', id: 'hero', isExternal: false },
+    { href: '#services', label: 'Послуги', id: 'services', isExternal: false },
     { href: '/prices', label: 'Прайс-лист', id: 'prices', isExternal: true },
     { href: '#contacts', label: 'Контакти', id: 'contacts', isExternal: false },
   ];
@@ -116,15 +117,6 @@ export default function Navbar({
                 )
               ))}
             </nav>
-
-            {/* Header Messenger Buttons */}
-            <div className="hidden lg:flex items-center gap-2">
-              <MessengerButtons
-                telegramUrl={telegramUrl}
-                viberUrl={viberUrl}
-                size="sm"
-              />
-            </div>
 
             {/* Mobile Hamburger Toggle */}
             <div className="flex items-center gap-2 xl:hidden">

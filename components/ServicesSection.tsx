@@ -8,11 +8,10 @@ import {
   Sparkles,
   Syringe,
   Activity,
-  HeartPulse,
   Smile,
   Bug,
+  Pill,
   ChevronRight,
-  Info,
   X,
   CheckCircle2,
   ArrowRight,
@@ -26,12 +25,12 @@ export default function ServicesSection() {
     {
       id: 'therapy',
       icon: Stethoscope,
-      title: 'Терапія та консультації',
+      title: 'Терапія та консультація',
       description: 'Огляд, консультація лікаря-терапевта, діагностика загального стану здоров\'я тварини.',
       details: [
         'Первинний та повторний огляд терапевта',
         'Складання індивідуальної схеми лікування',
-        'Вимірювання тиску, температури, огляд слизових',
+        'Вимірювання температури, огляд слизових, отоскопія',
         'Консультації з раціону харчування та догляду',
       ],
       badge: 'Популярна послуга',
@@ -46,9 +45,9 @@ export default function ServicesSection() {
         'Стерилізація та кастрація котів і собак',
         'Абдомінальна та м\'якотканинна хірургія',
         'Первинна хірургічна обробка та зшивання ран',
-        'Інгаляційний/ін\'єкційний безболісний наркоз',
+        'Індивідуально підібраний наркоз',
       ],
-      badge: 'Сучасний наркоз',
+      badge: 'Підібраний наркоз',
       color: 'from-blue-600 to-sky-500',
     },
     {
@@ -57,7 +56,7 @@ export default function ServicesSection() {
       title: 'Стоматологія',
       description: 'Огляд порожнини рота, гігієнічна чистка, лікування та видалення зубів.',
       details: [
-        'Ультразвукова зняття зубного каменю та полірування',
+        'Ультразвукове зняття зубного каменю та полірування',
         'Видалення молочних та зруйнованих зубів',
         'Лікування пародонтиту та стоматиту',
         'Рекомендації з гігієни зубів удома',
@@ -76,35 +75,33 @@ export default function ServicesSection() {
         'Лікування отодектозу (вушного кліща) та грибків',
         'Підбір протипаразитарних препаратів',
       ],
-      badge: 'Експрес-зіскрібок',
+      badge: 'Цитологія',
       color: 'from-sky-600 to-indigo-500',
     },
     {
       id: 'diagnostics',
       icon: Activity,
       title: 'Діагностика',
-      description: 'УЗД, рентген, лабораторні аналізи крові та сечі.',
+      description: 'Лабораторні дослідження крові, сечі, калу та експрес-тести.',
       details: [
-        'Ультразвукове дослідження органів черевної порожнини',
-        'Біохімічний та загальний аналіз крові (15 хв)',
-        'Аналіз сечі, калу та цитологічні дослідження',
-        'Цифрова рентгенографія',
+        'Біохімічний і загальний аналіз крові',
+        'Аналіз сечі і калу',
+        'Експрес-тести на вірусні захворювання, лямбліоз',
       ],
-      badge: 'Результати за 15 хв',
+      badge: 'Працюємо з сучасною лабораторією',
       color: 'from-indigo-500 to-sky-500',
     },
     {
       id: 'vaccination',
       icon: Syringe,
-      title: 'Вакцинація та чіпування',
+      title: 'Вакцинація і чіпування',
       description: 'Планові щеплення за календарем, чіпування для ідентифікації тварини.',
       details: [
-        'Комплексні вакцини для котів, собак та кроликів',
-        'Міжнародне мікрочіпування з внесенням до бази',
-        'Оформлення ветеринарного паспорта єврозразка',
-        'Профілактична дегельмінтизація',
+        'Комплексні вакцини для котів та собак',
+        'Чіпування з внесенням до міжнародної бази Animal-id',
+        'Оформлення ветеринарного паспорта (не міжнародний)',
       ],
-      badge: 'Європаспорт',
+      badge: '',
       color: 'from-teal-500 to-emerald-500',
     },
     {
@@ -113,26 +110,24 @@ export default function ServicesSection() {
       title: 'Грумінг',
       description: 'Гігієнічні та естетичні стрижки, догляд за шерстю та кігтями.',
       details: [
-        'Гігієнічна стрижка котів та собак без седації',
-        'Чистка вушок, вичісування підшерстку, обрізання кігтів',
-        'Купання професійними гіпоалергенними шампунями',
-        'Експрес-линька для короткошерстих порід',
+        'Стрижка котів і собак (можливо з седацією)',
+        'Вичісування підшерстку',
+        'Стрижка кігтів, чистка вушок',
       ],
-      badge: 'Без седації',
+      badge: 'Попередній запис',
       color: 'from-sky-400 to-blue-500',
     },
     {
-      id: 'exotic',
-      icon: HeartPulse,
-      title: 'Прийом екзотичних тварин',
-      description: 'Консультації та лікування гризунів і дрібних екзотичних ссавців.',
+      id: 'pharmacy',
+      icon: Pill,
+      title: 'Ветеринарна аптека',
+      description: 'Широкий асортимент ветеринарних препаратів, лікувальних кормів та засобів гігієни.',
       details: [
-        'Лікар-ратолог для морських свинок, щурів, хом\'яків',
-        'Прийом та огляд кроликів, фреток, шиншил',
-        'Обрізання зубок гризунам спеціальним бором',
-        'Консультації з утримання та годування екзотів',
+        'Широкий асортимент ветеринарних препаратів',
+        'Лікувальні корми для котів і собак',
+        'Шампуні, засоби гігієни для ваших улюбленців',
       ],
-      badge: 'Досвідчений ратолог',
+      badge: 'Препарати та корми',
       color: 'from-cyan-600 to-sky-600',
     },
   ];
@@ -175,9 +170,11 @@ export default function ServicesSection() {
                     <div className="w-12 h-12 rounded-2xl bg-sky-50 group-hover:bg-sky-500 text-sky-600 group-hover:text-white transition-colors duration-300 flex items-center justify-center shrink-0">
                       <Icon className="w-6 h-6" />
                     </div>
-                    <span className="text-[11px] font-bold text-sky-700 bg-sky-50 border border-sky-100 px-2.5 py-1 rounded-full">
-                      {service.badge}
-                    </span>
+                    {service.badge ? (
+                      <span className="text-[11px] font-bold text-sky-700 bg-sky-50 border border-sky-100 px-2.5 py-1 rounded-full">
+                        {service.badge}
+                      </span>
+                    ) : null}
                   </div>
 
                   <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-sky-600 transition-colors">
@@ -247,9 +244,11 @@ export default function ServicesSection() {
                 {React.createElement(activeModalService.icon, { className: 'w-6 h-6' })}
               </div>
               <div>
-                <span className="text-xs font-bold text-sky-600 uppercase tracking-wider">
-                  {activeModalService.badge}
-                </span>
+                {activeModalService.badge ? (
+                  <span className="text-xs font-bold text-sky-600 uppercase tracking-wider block mb-0.5">
+                    {activeModalService.badge}
+                  </span>
+                ) : null}
                 <h3 className="text-xl font-extrabold text-slate-900">{activeModalService.title}</h3>
               </div>
             </div>

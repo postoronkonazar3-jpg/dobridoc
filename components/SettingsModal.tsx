@@ -43,7 +43,7 @@ export default function SettingsModal({
       telegramUrl: 'https://t.me/+380962030411',
       viberUrl: 'viber://chat?number=%2B380962030411',
       phone: '+380 96 203 04 11',
-      workingHours: 'Щодня 09:00–21:00 без вихідних',
+      workingHours: 'ПН-СБ з 10.00 до 17.00. Неділя - вихідний',
       address: 'м. Київ, вул. Кирилівська, 123',
     };
     setFormData(defaultConfig);
