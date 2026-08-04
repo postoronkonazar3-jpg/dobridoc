@@ -106,7 +106,7 @@ export default function Hero({
               <div>
                 <p className="text-xs font-bold uppercase tracking-wider text-sky-900">Адреса клініки</p>
                 <p className="text-sm font-semibold text-slate-800 mt-0.5">{address}</p>
-                <p className="text-xs text-slate-500 mt-0.5">Шевченківський р-н (м. Дорогожичі)</p>
+                <p className="text-xs text-slate-500 mt-0.5">М Почайна / Оболонь</p>
               </div>
             </div>
 

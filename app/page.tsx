@@ -7,6 +7,8 @@ import VideoTourSection from '@/components/VideoTourSection';
 import AboutSection from '@/components/AboutSection';
 import GallerySection from '@/components/GallerySection';
 import ServicesSection from '@/components/ServicesSection';
+import GroomingSection from '@/components/GroomingSection';
+import HotelSection from '@/components/HotelSection';
 import PromosSection from '@/components/PromosSection';
 import ContactsSection from '@/components/ContactsSection';
 import Footer from '@/components/Footer';
@@ -53,6 +55,10 @@ export default function Home() {
         <GallerySection />
 
         <ServicesSection />
+
+        <GroomingSection phone={config.phone} />
+
+        <HotelSection phone={config.phone} />
 
         <PromosSection phone={config.phone} />
 

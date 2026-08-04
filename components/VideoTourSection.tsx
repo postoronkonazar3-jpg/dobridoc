@@ -36,7 +36,7 @@ export default function VideoTourSection() {
 
           <p className="text-slate-600 text-base sm:text-lg mt-4 leading-relaxed font-normal">
             Запрошуємо вас у віртуальний тур ветеринарною клінікою <span className="font-bold text-sky-900">«Добрий Доктор»</span>. 
-            Подивіться на наші сучасні кабінети, затишні зони очікування та команду фахівців, які щодня дбають про ваших улюбленців.
+            Подивіться на наші сучасні кабінети i затишні зони очікування
           </p>
         </div>
 
@@ -73,18 +73,6 @@ export default function VideoTourSection() {
               </h3>
               <p className="text-sm text-slate-600 mt-1.5 leading-relaxed">
                 Усі процедури виконуються за сучасними міжнародними протоколами доказової ветеринарії.
-              </p>
-            </div>
-
-            <div className="p-6 rounded-3xl bg-white border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 rounded-2xl bg-cyan-50 text-cyan-600 flex items-center justify-center mb-4 border border-cyan-100">
-                <HeartPulse className="w-6 h-6" />
-              </div>
-              <h3 className="text-lg font-extrabold text-slate-900">
-                Сучасна діагностика
-              </h3>
-              <p className="text-sm text-slate-600 mt-1.5 leading-relaxed">
-                Власна лабораторія, цифровий УЗД та обладнання для точного встановлення діагнозу.
               </p>
             </div>
 

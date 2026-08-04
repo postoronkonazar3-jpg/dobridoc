@@ -68,7 +68,7 @@ export default function AboutSection() {
             </p>
 
             {/* Highlights List */}
-            <div className="mb-8">
+            <div>
               <p className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-4 flex items-center gap-2">
                 <Sparkles className="w-4 h-4 text-sky-500" />
                 Наша клініка пишається тим, що:
@@ -84,21 +84,6 @@ export default function AboutSection() {
                   </li>
                 ))}
               </ul>
-            </div>
-
-            {/* Section Guarantee Note */}
-            <div className="pt-6 border-t border-slate-100 flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center shrink-0 border border-sky-100">
-                <ShieldCheck className="w-5 h-5 text-sky-600" />
-              </div>
-              <div>
-                <p className="text-xs font-bold text-slate-800 uppercase tracking-wider">
-                  Професійна діагностика та турбота
-                </p>
-                <p className="text-xs text-slate-500">
-                  Високі стандарти лікування, сучасне обладнання та повна прозорість призначення.
-                </p>
-              </div>
             </div>
 
           </div>

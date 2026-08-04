@@ -54,7 +54,7 @@ export default function ContactsSection({
                   <p className="text-base font-extrabold text-slate-900 mt-0.5">{address}</p>
                   <p className="text-xs text-slate-500 mt-1 flex items-center gap-1">
                     <Navigation className="w-3.5 h-3.5 text-sky-600" />
-                    <span>Подільський район (м. Тараса Шевченка / Почайна)</span>
+                    <span>М Почайна / Оболонь</span>
                   </p>
                 </div>
               </div>

@@ -30,7 +30,7 @@ export default function Navbar({
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
 
-      const sections = ['hero', 'services', 'contacts'];
+      const sections = ['hero', 'services', 'grooming', 'hotel', 'contacts'];
       const scrollPosition = window.scrollY + 120;
 
       for (const section of sections) {
@@ -53,6 +53,8 @@ export default function Navbar({
   const navLinks = [
     { href: '#hero', label: 'Головна', id: 'hero', isExternal: false },
     { href: '#services', label: 'Послуги', id: 'services', isExternal: false },
+    { href: '#grooming', label: 'Грумінг', id: 'grooming', isExternal: false },
+    { href: '#hotel', label: 'Зоо-Готель', id: 'hotel', isExternal: false },
     { href: '/prices', label: 'Прайс-лист', id: 'prices', isExternal: true },
     { href: '#contacts', label: 'Контакти', id: 'contacts', isExternal: false },
   ];
