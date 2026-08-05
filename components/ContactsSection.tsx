@@ -54,7 +54,7 @@ export default function ContactsSection({
                   <p className="text-base font-extrabold text-slate-900 mt-0.5">{address}</p>
                   <p className="text-xs text-slate-500 mt-1 flex items-center gap-1">
                     <Navigation className="w-3.5 h-3.5 text-sky-600" />
-                    <span>М Почайна / Оболонь</span>
+                    <span>Куренівка</span>
                   </p>
                 </div>
               </div>
@@ -101,7 +101,7 @@ export default function ContactsSection({
             {/* Map iframe embedding location ( вул. Кирилівська 123, Київ ) */}
             <iframe
               title="Розташування ветеринарної клініки Добрий Доктор на карті Києва"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.38779951307!2d30.485123476838637!3d50.4713789860851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce0839e44d37%3A0xb35a396263bb4be0!2zdmVsLiBLeXJ5bGl2c2thLCAxMjMsIEt5aXY!5e0!3m2!1sen!2sua!4v1700000000000!5m2!1sen!2sua"
+              src="https://maps.google.com/maps?q=50.47398,30.48332+(%D0%92%D0%B5%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0%D1%80%D0%BD%D0%B0+%D0%BA%D0%BB%D1%96%D0%BD%D1%96%D0%BA%D0%B0+%D0%94%D0%BE%D0%B1%D1%80%D0%B8%D0%B9+%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80)&hl=uk&z=19&output=embed"
               className="w-full h-full min-h-[380px] border-0"
               allowFullScreen={false}
               loading="lazy"
